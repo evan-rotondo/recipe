@@ -1,0 +1,146 @@
+@media screen and (min-width: 45em ) {
+
+.container {
+    max-width:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-gap:5px;
+    
+    
+}
+
+.hero{
+    grid-column:1/-1;
+    grid-row: 1/-1;
+    }
+
+
+
+.title{
+    grid-column:1/-1;
+    grid-row: 1/-1;
+    margin-top:10em;
+}
+
+.flavour {
+    grid-column: 1/-1;
+    grid-row:2;
+    }
+
+.prep{
+    grid-column: 1;
+    grid-row:3;
+    
+}
+
+.cook {
+    grid-column: 2;
+    grid-row:3 ;
+}
+
+.serve{
+    grid-column:3;
+    grid-row:3 ;
+}
+
+.navi{
+    grid-column: 1/-1;
+    grid-row: 4; 
+    font-weight:500;
+    
+    
+}
+
+.guide{
+    grid-column: 1;
+    grid-row:5;
+     
+}
+
+.equip{
+    grid-column:1;
+    grid-row:6/ span 10;
+}
+.story{
+    grid-column:2/-1;
+    grid-row:5;
+}
+
+.start{
+    grid-column:2/-1;
+    grid-row:6;
+    
+}
+
+.step1{
+    grid-column:2/-1;
+    grid-row:7;
+    
+}
+
+.pic1{
+    grid-column:2;
+    grid-row:8;
+}
+
+.pic2{
+    grid-column:3;
+    grid-row:8;
+}
+
+.step2{
+    grid-column:2/-1;
+    grid-row:9;
+}
+
+.pic3{
+    grid-column:2;
+    grid-row:10;
+}
+.pic4{
+    grid-column:3;
+    grid-row:10;
+}
+
+.step3{
+    grid-column:2/-1;
+    grid-row:11;
+}
+
+.pic5{
+    grid-column:2;
+    grid-row:12;
+}
+
+.pic6{
+    grid-column:3;
+    grid-row: 12;
+}
+
+.step4{
+    grid-column:2/-1;
+    grid-row: 13;
+}
+
+.pic7{
+    grid-column:2/-1;
+    grid-row:14;
+    width: 50%;
+    padding-left:25%;
+}
+
+.share{
+    grid-column:2/-1;
+    grid-row:15;
+}
+
+.go{
+    grid-column:2/-1;
+    grid-row:16;
+}
+
+.foot{
+    grid-column:1/-1;
+    grid-row:17;
+}

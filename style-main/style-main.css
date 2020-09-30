@@ -1,0 +1,150 @@
+:root {
+    --bg-color: #260401;
+
+    --color-nav:#95BFB6;
+
+    --color-text: #6B340A;
+
+    --color-section:#E2D9D0;
+
+    --color-footer: #000;
+
+    --font: Roboto, sans-serif;
+
+    --font-header:Merriweather, sans-serif;
+   
+    --color-article:#C5CCE3;
+
+
+}
+  
+
+body{
+    font-family: var(--font);  
+    background-color: var(--bg-color)
+      
+  }
+
+nav{
+    background-color: var(--color-nav);
+    color: var(--color-text);
+    
+    
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline;
+    
+}
+
+section{
+    background-color: var(--color-section);
+    
+}
+
+article{
+    background-color: var(--color-article);
+}
+
+h1{
+    font-family: var(--font-header);
+    color:#fff;
+}
+
+h2{
+    font-family: var(--font-header);
+    text-align:center;
+}
+
+h3{
+    font-family: var(--font-header);
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    background-color: var(--color-footer);
+    color: #fff;
+
+}
+
+section span {
+
+ padding-left:1em;
+ padding-right:1em;
+ padding-bottom:1em;
+ margin-left:1em;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+.responsive{
+    width:100%;
+    height: auto;
+}
+
+.title{
+    text-align:center;
+    font-size: 25px;
+    
+}
+
+.flavour{
+    text-align:center;
+    color:#000;
+    font-weight: 600;
+    font-size:15;
+    background-color: #fff;
+}
+
+.prep{
+    text-align:center;
+    border-radius: 5%;
+    border-width: 2px;
+    color: #fff;
+    background-color: #02323E;
+    opacity: .9;
+    margin:5px;
+}
+
+.cook{
+    text-align:center;
+    border-radius: 5%;
+    border-width: 2px;
+    color: #fff;
+    background-color: #02323E;
+    opacity: .9;
+    margin:5px;
+    padding:10px;
+}
+
+.serve{
+    text-align:center;
+    border-radius: 5%;
+    border-width: 2px;
+    color: #fff;
+    background-color:#02323E;
+    opacity: .9;
+    margin:5px;  
+}
+.menu{
+    text-align: center;
+    word-spacing: 2px;
+    padding:5px;
+    
+}
+
+.history{
+    text-align:center;
+}
+
+.icon{
+    text-align:center;
+}
