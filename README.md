@@ -76,3 +76,6 @@
 
 8. Footer
     *p "Copywrite" Lorem Ipsum, font-family: Roboto
+
+### Contributions
+[sumosp](https://github.com/sumosp)
